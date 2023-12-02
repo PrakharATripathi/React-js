@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import fetchData from "./fetchData"
+import fetchData from "../service/fetchData"
 import BeerCard from "./BeerCard";
 
 function Product() {

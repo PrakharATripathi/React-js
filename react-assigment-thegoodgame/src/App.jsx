@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Product from "./Product"
-import ProductDetails from "./ProductDetails"
+import Product from "./component/Product"
+import ProductDetails from "./component/ProductDetails"
 
 
 function App() {

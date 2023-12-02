@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import fetchData from './fetchData';
+import fetchData from '../service/fetchData';
 
 function ProductDetails() {
     const [data, setData] = useState([])
@@ -14,7 +14,7 @@ function ProductDetails() {
         fetchDatas();
     }, [])
     const foundItem = data.find(item => item.id === Number(id));
-    console.log(foundItem)
+    // console.log(foundItem)
     return (
         <>
         <div className='m-2'>
