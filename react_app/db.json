@@ -1,0 +1,101 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "Medicine": [
+    {
+      "medicine": "dolo",
+      "batchNum": "A5",
+      "quntity": "45",
+      "rack": "5",
+      "expireDate": "2023-10-28",
+      "id": 1
+    }
+  ],
+  "AddMedicineRecode": [
+    {
+      "medicine": "dolo",
+      "rack": "3",
+      "quntity": "40",
+      "id": 1
+    }
+  ],
+  "AddMedicineOutRecode": [
+    {
+      "medicine": "dolo",
+      "rack": "1",
+      "quntity": "30",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "FirstName": "Prakhar",
+      "LastName": "Tripathi",
+      "Email": "Prakhar@gmail.com",
+      "number": 123456789,
+      "Passwords": "pfghtryy6y5th",
+      "id": 1
+    },
+    {
+      "FirstName": "s",
+      "LastName": "Tripathi",
+      "Email": "shlok@gmail.com",
+      "number": 123456789,
+      "Passwords": "sdr4ffer",
+      "id": 2
+    },
+    {
+      "FirstName": "vishal",
+      "LastName": "mishra",
+      "Email": "vikash@gmail.com",
+      "number": 123456789,
+      "Passwords": "var4etgdf",
+      "id": 3
+    },
+    {
+      "FirstName": "bhumik",
+      "LastName": "panchal",
+      "Email": "bhumik@gmail.com",
+      "number": 123456789,
+      "Passwords": "bar4etgdf",
+      "id": 4
+    },
+    {
+      "FirstName": "rudhra",
+      "LastName": "solanki",
+      "Email": "rudhra@gmail.com",
+      "number": 123456789,
+      "id": 5,
+      "Passwords": "rcytr567"
+    },
+    {
+      "FirstName": "pujan",
+      "LastName": "jani",
+      "Email": "pujan@gmail.com",
+      "number": 123456789,
+      "Passwords": "pgtfry",
+      "id": 6
+    },
+    {
+      "FirstName": "Sachin",
+      "LastName": "isani",
+      "Email": "sachin@gmail.com",
+      "number": 123456789,
+      "Passwords": "Sgfy5ytgr",
+      "id": 7
+    },
+    {
+      "FirstName": "vansh Kumar",
+      "LastName": "panchal",
+      "Email": "vansh@gmail.com",
+      "number": 123456789,
+      "Passwords": "vxfxwer",
+      "id": 9
+    }
+  ]
+}
