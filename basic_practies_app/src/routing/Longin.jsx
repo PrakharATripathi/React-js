@@ -6,10 +6,12 @@ function Longin() {
         name: "",
         email: "",
         tel: '',
-        file:""
+        file: ""
     })
-    const login = () => {
-        localStorage.setItem("use-info",JSON.stringify(data))
+    const login = (e) => {
+        e.preventDefault()
+        localStorage.setItem("use-info", JSON.stringify(data))      
+        navigate('/')
     }
     const navigate = useNavigate()
     useEffect(() => {

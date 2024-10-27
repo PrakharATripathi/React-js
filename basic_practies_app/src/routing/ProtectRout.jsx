@@ -9,7 +9,7 @@ function ProtectRout({ Component }) {
             navigate('/login')
         }
     })
-    return (
+    return   (
         <div>
             <Component />
         </div>

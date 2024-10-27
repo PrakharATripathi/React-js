@@ -7,9 +7,8 @@ function App() {
   return (  
     <>
      {/* <MainPage/> */}
-     <Task2Main/>
+     {/* <Task2Main/> */}
      {/* <PassMain/> */}
-
     </>
   )
 }

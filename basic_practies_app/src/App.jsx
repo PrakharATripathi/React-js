@@ -1,10 +1,10 @@
 import './App.css'
-// import Main from './forms/mAIN.JSX'
+import Main from './forms/mAIN.JSX'
 import Count from './useState/Count'
-// import Bg from './bg -change/Bg'
+import Bg from './bg -change/Bg'
 import Password from './passwordGenerate/Password'
 import Example from './useState/Example'
-import Main from './MEDICINE/Main'
+// import Main from './MEDICINE/Main'
 import Solution1 from './example/Solution1'
 // import ControlledForm from './forms/Controlled Components'
 import DataForm from './forms/DataForm'
@@ -37,11 +37,11 @@ function App() {
       {/* <Solution1/> */}
       {/* <ControlledForm/> */}
       {/* <JsonFile/> */}
-      <Main />
+      {/* <Main /> */}
       {/* <Count/> */}
       {/* <UseRef/> */}
       {/* <UnctrollForm/> */}
-      {/* <RoutingMain/> */}
+      <RoutingMain/>
       {/* <ContexMain/> */}
       {/* <UseCallback/> */}
       {/* <UseMemoMain/> */}

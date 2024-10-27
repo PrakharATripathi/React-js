@@ -17,7 +17,7 @@ function CrudeMain() {
   const filteredItems = items.filter((item) => 
     item.toLowerCase().includes(searchTerm.toLowerCase())
   );
-  console.log(filteredItems)
+  // console.log(filteredItems)
   const handleInputChange = (event) => {
     setSearchTerm(event.target.value);
   };
